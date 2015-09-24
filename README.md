@@ -1,2 +1,2 @@
 # Pincushion
-## Pin DOM elements and give them behavior
+Pin DOM elements and give them behavior

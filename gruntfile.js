@@ -20,11 +20,11 @@ module.exports = function(grunt) {
     },
     watch: {
       styles: {
-        files: ['src/styles'],
+        files: ['src/styles/*.styl'],
         tasks: ['stylus']
       },
       views: {
-        files: ['src/views'],
+        files: ['src/views/*.jade'],
         tasks: ['jade']
       }
     }
@@ -35,6 +35,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-stylus');
   grunt.loadNpmTasks('grunt-contrib-jade');
 
-  grunt.registerTask('default', ['jshint']);
+  grunt.registerTask('default', ['stylus','jade']);
 
 };

@@ -21,3 +21,7 @@ $(function() {
 
   window.Pin = Pin;
 });
+
+// Forces
+// 1. m*c (gravity)
+// 2. c*x (spring)
